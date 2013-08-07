@@ -1,0 +1,52 @@
+Aug 06 21:53:20  [info] Ignoring exception thrown by nullHandler: , mail() returned failure
+
+Aug 06 21:53:20  [info] $backTrace = #0 /var/www/sites/all/modules/civicrm/CRM/Core/Error.php(766): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /var/www/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /var/www/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("mail() returned failure", NULL, 16, (Array:2), NULL)
+#4 /var/www/sites/all/modules/civicrm/packages/Mail/mail.php(174): PEAR->raiseError("mail() returned failure")
+#5 /var/www/sites/all/modules/civicrm/CRM/Utils/Mail.php(181): Mail_mail->send((Array:2), (Array:11), "--=_8287b649d0302af752c9375e8191992b\nContent-Transfer-Encoding: 8bit\nConten...")
+#6 /var/www/sites/all/modules/civicrm/CRM/Core/BAO/MessageTemplates.php(522): CRM_Utils_Mail::send((Array:19))
+#7 /var/www/sites/all/modules/civicrm/CRM/Event/BAO/Event.php(1127): CRM_Core_BAO_MessageTemplates::sendTemplate((Array:12))
+#8 /var/www/sites/all/modules/civicrm/CRM/Event/Form/Registration/Register.php(1357): CRM_Event_BAO_Event::sendMail("2", (Array:7), 1, TRUE)
+#9 /var/www/sites/all/modules/civicrm/CRM/Event/Form/Registration/Register.php(1169): CRM_Event_Form_Registration_Register->processRegistration((Array:1))
+#10 /var/www/sites/all/modules/civicrm/CRM/Core/Form.php(246): CRM_Event_Form_Registration_Register->postProcess()
+#11 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Upload.php(151): CRM_Core_Form->mainProcess()
+#12 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Upload.php(128): CRM_Core_QuickForm_Action_Upload->realPerform(Object(CRM_Event_Form_Registration_Register), "upload")
+#13 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Upload->perform(Object(CRM_Event_Form_Registration_Register), "upload")
+#14 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_Registration_Register), "upload")
+#15 /var/www/sites/all/modules/civicrm/CRM/Core/Controller.php(316): HTML_QuickForm_Page->handle("upload")
+#16 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(292): CRM_Core_Controller->run((Array:3), NULL)
+#17 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(70): CRM_Core_Invoke::runItem((Array:15))
+#18 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#19 /var/www/sites/all/modules/civicrm/drupal/civicrm.module(436): CRM_Core_Invoke::invoke((Array:3))
+#20 [internal function](): civicrm_invoke("event", "register")
+#21 /var/www/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:2))
+#22 /var/www/index.php(21): menu_execute_active_handler()
+#23 {main}
+
+
+Aug 06 22:13:46  [info] $Fatal Error Details = Array
+(
+    [message] => The <a href="/index.php?q=civicrm/admin/sms/provider&amp;reset=1">SMS Provider</a> has not been configured or is not active.
+    [code] => 
+)
+
+
+Aug 06 22:13:46  [info] $backTrace = #0 /var/www/sites/all/modules/civicrm/CRM/Core/Error.php(315): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/sites/all/modules/civicrm/CRM/SMS/Form/Group.php(50): CRM_Core_Error::fatal("The <a href=\"/index.php?q=civicrm/admin/sms/provider&amp;reset=1\">SMS Provi...")
+#2 /var/www/sites/all/modules/civicrm/CRM/Core/Form.php(336): CRM_SMS_Form_Group->preProcess()
+#3 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#4 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_SMS_Form_Group), "display")
+#5 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_SMS_Form_Group), "display")
+#6 /var/www/sites/all/modules/civicrm/CRM/Core/Controller.php(316): HTML_QuickForm_Page->handle("display")
+#7 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(292): CRM_Core_Controller->run((Array:3), NULL)
+#8 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(70): CRM_Core_Invoke::runItem((Array:13))
+#9 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#10 /var/www/sites/all/modules/civicrm/drupal/civicrm.module(436): CRM_Core_Invoke::invoke((Array:3))
+#11 [internal function](): civicrm_invoke("sms", "send")
+#12 /var/www/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:2))
+#13 /var/www/index.php(21): menu_execute_active_handler()
+#14 {main}
+
+
