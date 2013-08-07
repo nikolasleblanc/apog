@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:41:02
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:29:43
          compiled from CRM/Contribute/Page/PcpUserDashboard.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'ts', 'CRM/Contribute/Page/PcpUserDashboard.tpl', 34, false),array('function', 'cycle', 'CRM/Contribute/Page/PcpUserDashboard.tpl', 42, false),array('function', 'crmURL', 'CRM/Contribute/Page/PcpUserDashboard.tpl', 43, false),array('modifier', 'truncate', 'CRM/Contribute/Page/PcpUserDashboard.tpl', 45, false),array('modifier', 'crmDate', 'CRM/Contribute/Page/PcpUserDashboard.tpl', 45, false),array('modifier', 'replace', 'CRM/Contribute/Page/PcpUserDashboard.tpl', 47, false),)), $this); ?>

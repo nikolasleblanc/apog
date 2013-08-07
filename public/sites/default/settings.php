@@ -221,7 +221,7 @@ $databases = array (
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
-      'prefix' => 'apog_',
+      'prefix' => array ('default'=>'apog_','civicrm_phone'=>'','civicrm_email'=>'','civicrm_event'=>'','civicrm_activity'=>'','civicrm_contact'=>'','civicrm_address'=>'','civicrm_contribution'=>'')
     ),
   ),
 );

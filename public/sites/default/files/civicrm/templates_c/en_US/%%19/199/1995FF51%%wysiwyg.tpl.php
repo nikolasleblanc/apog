@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:25:43
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:26:59
          compiled from CRM/common/wysiwyg.tpl */ ?>
 
 <?php if ($this->_tpl_vars['includeWysiwygEditor']): ?>

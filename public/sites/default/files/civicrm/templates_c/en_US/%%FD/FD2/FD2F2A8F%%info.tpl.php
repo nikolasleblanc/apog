@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:27:23
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:39:58
          compiled from CRM/common/info.tpl */ ?>
 <?php if ($this->_tpl_vars['infoMessage']): ?>
   <div class="messages status <?php echo $this->_tpl_vars['infoType']; ?>

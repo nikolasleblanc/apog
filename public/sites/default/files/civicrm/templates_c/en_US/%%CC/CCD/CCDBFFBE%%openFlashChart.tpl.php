@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:27:51
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:27:00
          compiled from CRM/common/openFlashChart.tpl */ ?>
 <script type="text/javascript" src="<?php echo $this->_tpl_vars['config']->resourceBase; ?>
 packages/OpenFlashChart/js/json/openflashchart.packed.js"></script>

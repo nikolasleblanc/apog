@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:29:54
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:45:20
          compiled from CRM/common/snippet.tpl */ ?>
 <?php if ($this->_tpl_vars['config']->debug): ?>
     <?php $_smarty_tpl_vars = $this->_tpl_vars;

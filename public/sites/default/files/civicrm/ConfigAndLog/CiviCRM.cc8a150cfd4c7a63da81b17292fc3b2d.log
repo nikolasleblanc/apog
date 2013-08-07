@@ -50,3 +50,124 @@ Aug 06 22:13:46  [info] $backTrace = #0 /var/www/sites/all/modules/civicrm/CRM/C
 #14 {main}
 
 
+Aug 07 10:04:55  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find user name for payment processor
+    [code] => 
+)
+
+
+Aug 07 10:04:55  [info] $backTrace = #0 /var/www/sites/all/modules/civicrm/CRM/Core/Error.php(315): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/sites/all/modules/civicrm/CRM/Core/Payment/PayPalImpl.php(71): CRM_Core_Error::fatal("Could not find user name for payment processor")
+#2 /var/www/sites/all/modules/civicrm/CRM/Core/Payment/PayPalImpl.php(87): CRM_Core_Payment_PayPalImpl->__construct("live", (Array:17))
+#3 /var/www/sites/all/modules/civicrm/CRM/Core/Payment.php(116) : eval()'d code(1): CRM_Core_Payment_PayPalImpl::singleton("live", (Array:17))
+#4 /var/www/sites/all/modules/civicrm/CRM/Core/Payment.php(116): eval()
+#5 /var/www/sites/all/modules/civicrm/CRM/Financial/BAO/PaymentProcessor.php(265): CRM_Core_Payment::singleton("live", (Array:17))
+#6 /var/www/sites/all/modules/civicrm/CRM/Financial/BAO/PaymentProcessor.php(207): CRM_Financial_BAO_PaymentProcessor::buildPayment(Object(CRM_Financial_DAO_PaymentProcessor), "live")
+#7 /var/www/sites/all/modules/civicrm/CRM/Financial/BAO/PaymentProcessor.php(218): CRM_Financial_BAO_PaymentProcessor::getPayment("1", "live")
+#8 /var/www/sites/all/modules/civicrm/CRM/Event/Form/Registration.php(342): CRM_Financial_BAO_PaymentProcessor::getPayments((Array:1), "live")
+#9 /var/www/sites/all/modules/civicrm/CRM/Event/Form/Registration/Register.php(81): CRM_Event_Form_Registration->preProcess()
+#10 /var/www/sites/all/modules/civicrm/CRM/Core/Form.php(336): CRM_Event_Form_Registration_Register->preProcess()
+#11 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#12 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Event_Form_Registration_Register), "display")
+#13 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_Registration_Register), "display")
+#14 /var/www/sites/all/modules/civicrm/CRM/Core/Controller.php(316): HTML_QuickForm_Page->handle("display")
+#15 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(292): CRM_Core_Controller->run((Array:3), NULL)
+#16 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(70): CRM_Core_Invoke::runItem((Array:15))
+#17 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#18 /var/www/sites/all/modules/civicrm/drupal/civicrm.module(436): CRM_Core_Invoke::invoke((Array:3))
+#19 [internal function](): civicrm_invoke("event", "register")
+#20 /var/www/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:2))
+#21 /var/www/index.php(21): menu_execute_active_handler()
+#22 {main}
+
+
+Aug 07 10:05:10  [info] $Fatal Error Details = Array
+(
+    [message] => Could not find user name for payment processor
+    [code] => 
+)
+
+
+Aug 07 10:05:10  [info] $backTrace = #0 /var/www/sites/all/modules/civicrm/CRM/Core/Error.php(315): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 /var/www/sites/all/modules/civicrm/CRM/Core/Payment/PayPalImpl.php(71): CRM_Core_Error::fatal("Could not find user name for payment processor")
+#2 /var/www/sites/all/modules/civicrm/CRM/Core/Payment/PayPalImpl.php(87): CRM_Core_Payment_PayPalImpl->__construct("live", (Array:17))
+#3 /var/www/sites/all/modules/civicrm/CRM/Core/Payment.php(116) : eval()'d code(1): CRM_Core_Payment_PayPalImpl::singleton("live", (Array:17))
+#4 /var/www/sites/all/modules/civicrm/CRM/Core/Payment.php(116): eval()
+#5 /var/www/sites/all/modules/civicrm/CRM/Financial/BAO/PaymentProcessor.php(265): CRM_Core_Payment::singleton("live", (Array:17))
+#6 /var/www/sites/all/modules/civicrm/CRM/Financial/BAO/PaymentProcessor.php(207): CRM_Financial_BAO_PaymentProcessor::buildPayment(Object(CRM_Financial_DAO_PaymentProcessor), "live")
+#7 /var/www/sites/all/modules/civicrm/CRM/Financial/BAO/PaymentProcessor.php(218): CRM_Financial_BAO_PaymentProcessor::getPayment("1", "live")
+#8 /var/www/sites/all/modules/civicrm/CRM/Event/Form/Registration.php(342): CRM_Financial_BAO_PaymentProcessor::getPayments((Array:1), "live")
+#9 /var/www/sites/all/modules/civicrm/CRM/Event/Form/Registration/Register.php(81): CRM_Event_Form_Registration->preProcess()
+#10 /var/www/sites/all/modules/civicrm/CRM/Core/Form.php(336): CRM_Event_Form_Registration_Register->preProcess()
+#11 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Display.php(93): CRM_Core_Form->buildForm()
+#12 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Display->perform(Object(CRM_Event_Form_Registration_Register), "display")
+#13 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_Registration_Register), "display")
+#14 /var/www/sites/all/modules/civicrm/CRM/Core/Controller.php(316): HTML_QuickForm_Page->handle("display")
+#15 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(292): CRM_Core_Controller->run((Array:3), NULL)
+#16 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(70): CRM_Core_Invoke::runItem((Array:15))
+#17 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:3))
+#18 /var/www/sites/all/modules/civicrm/drupal/civicrm.module(436): CRM_Core_Invoke::invoke((Array:3))
+#19 [internal function](): civicrm_invoke("event", "register")
+#20 /var/www/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:2))
+#21 /var/www/index.php(21): menu_execute_active_handler()
+#22 {main}
+
+
+Aug 07 12:22:55  [info] Ignoring exception thrown by nullHandler: , mail() returned failure
+
+Aug 07 12:22:55  [info] $backTrace = #0 /var/www/sites/all/modules/civicrm/CRM/Core/Error.php(766): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /var/www/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /var/www/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("mail() returned failure", NULL, 16, (Array:2), NULL)
+#4 /var/www/sites/all/modules/civicrm/packages/Mail/mail.php(174): PEAR->raiseError("mail() returned failure")
+#5 /var/www/sites/all/modules/civicrm/CRM/Utils/Mail.php(181): Mail_mail->send((Array:1), (Array:12), "<p>&nbsp;fsdafsfsda fsadf sadfsdfsa</p>")
+#6 /var/www/sites/all/modules/civicrm/CRM/Activity/BAO/Activity.php(1679): CRM_Utils_Mail::send((Array:11))
+#7 /var/www/sites/all/modules/civicrm/CRM/Activity/BAO/Activity.php(1419): CRM_Activity_BAO_Activity::sendMessage("\"Nikolas LeBlanc\" <nikolas.leblanc@gmail.com> ", "2", "2", "test", "", "<p>&nbsp;fsdafsfsda fsadf sadfsdfsa</p>", "nikolas.leblanc@gmail.com", 2, (Array:0), "", "")
+#8 /var/www/sites/all/modules/civicrm/CRM/Contact/Form/Task/EmailCommon.php(398): CRM_Activity_BAO_Activity::sendEmail((Array:1), "test", "", "<p>&nbsp;fsdafsfsda fsadf sadfsdfsa</p>", NULL, NULL, "\"Nikolas LeBlanc\" <nikolas.leblanc@gmail.com> ", (Array:0), "", "", (Array:1))
+#9 /var/www/sites/all/modules/civicrm/CRM/Contact/Form/Task/Email.php(120): CRM_Contact_Form_Task_EmailCommon::postProcess(Object(CRM_Contact_Form_Task_Email))
+#10 /var/www/sites/all/modules/civicrm/CRM/Core/Form.php(246): CRM_Contact_Form_Task_Email->postProcess()
+#11 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Upload.php(151): CRM_Core_Form->mainProcess()
+#12 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Upload.php(128): CRM_Core_QuickForm_Action_Upload->realPerform(Object(CRM_Contact_Form_Task_Email), "upload")
+#13 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Upload->perform(Object(CRM_Contact_Form_Task_Email), "upload")
+#14 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Contact_Form_Task_Email), "upload")
+#15 /var/www/sites/all/modules/civicrm/CRM/Core/Controller.php(316): HTML_QuickForm_Page->handle("upload")
+#16 /var/www/sites/all/modules/civicrm/CRM/Utils/Wrapper.php(117): CRM_Core_Controller->run()
+#17 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(266): CRM_Utils_Wrapper->run("CRM_Contact_Form_Task_Email", "Activities", (Array:1))
+#18 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(70): CRM_Core_Invoke::runItem((Array:14))
+#19 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#20 /var/www/sites/all/modules/civicrm/drupal/civicrm.module(436): CRM_Core_Invoke::invoke((Array:4))
+#21 [internal function](): civicrm_invoke("activity", "email", "add")
+#22 /var/www/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#23 /var/www/index.php(21): menu_execute_active_handler()
+#24 {main}
+
+
+Aug 07 12:24:20  [info] Ignoring exception thrown by nullHandler: , mail() returned failure
+
+Aug 07 12:24:20  [info] $backTrace = #0 /var/www/sites/all/modules/civicrm/CRM/Core/Error.php(766): CRM_Core_Error::backtrace("backTrace", TRUE)
+#1 [internal function](): CRM_Core_Error::nullHandler(Object(PEAR_Error))
+#2 /var/www/sites/all/modules/civicrm/packages/PEAR.php(931): call_user_func((Array:2), Object(PEAR_Error))
+#3 /var/www/sites/all/modules/civicrm/packages/PEAR.php(566): PEAR_Error->PEAR_Error("mail() returned failure", NULL, 16, (Array:2), NULL)
+#4 /var/www/sites/all/modules/civicrm/packages/Mail/mail.php(174): PEAR->raiseError("mail() returned failure")
+#5 /var/www/sites/all/modules/civicrm/CRM/Utils/Mail.php(181): Mail_mail->send((Array:2), (Array:10), "--=_2b7ad27a2976e1e1588b0a41ccabebd2\nContent-Transfer-Encoding: 8bit\nConten...")
+#6 /var/www/sites/all/modules/civicrm/CRM/Core/BAO/MessageTemplates.php(522): CRM_Utils_Mail::send((Array:18))
+#7 /var/www/sites/all/modules/civicrm/CRM/Event/Form/Participant.php(1707): CRM_Core_BAO_MessageTemplates::sendTemplate((Array:9))
+#8 /var/www/sites/all/modules/civicrm/CRM/Core/Form.php(246): CRM_Event_Form_Participant->postProcess()
+#9 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Upload.php(151): CRM_Core_Form->mainProcess()
+#10 /var/www/sites/all/modules/civicrm/CRM/Core/QuickForm/Action/Upload.php(128): CRM_Core_QuickForm_Action_Upload->realPerform(Object(CRM_Event_Form_Participant), "upload")
+#11 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Controller.php(203): CRM_Core_QuickForm_Action_Upload->perform(Object(CRM_Event_Form_Participant), "upload")
+#12 /var/www/sites/all/modules/civicrm/packages/HTML/QuickForm/Page.php(103): HTML_QuickForm_Controller->handle(Object(CRM_Event_Form_Participant), "upload")
+#13 /var/www/sites/all/modules/civicrm/CRM/Core/Controller.php(316): HTML_QuickForm_Page->handle("upload")
+#14 /var/www/sites/all/modules/civicrm/CRM/Event/Page/Tab.php(115): CRM_Core_Controller->run()
+#15 /var/www/sites/all/modules/civicrm/CRM/Event/Page/Tab.php(175): CRM_Event_Page_Tab->edit()
+#16 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(292): CRM_Event_Page_Tab->run((Array:4), NULL)
+#17 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(70): CRM_Core_Invoke::runItem((Array:12))
+#18 /var/www/sites/all/modules/civicrm/CRM/Core/Invoke.php(52): CRM_Core_Invoke::_invoke((Array:4))
+#19 /var/www/sites/all/modules/civicrm/drupal/civicrm.module(436): CRM_Core_Invoke::invoke((Array:4))
+#20 [internal function](): civicrm_invoke("contact", "view", "participant")
+#21 /var/www/includes/menu.inc(517): call_user_func_array("civicrm_invoke", (Array:3))
+#22 /var/www/index.php(21): menu_execute_active_handler()
+#23 {main}
+
+

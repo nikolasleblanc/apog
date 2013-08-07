@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:41:20
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:28:16
          compiled from CRM/Form/attachmentjs.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'ts', 'CRM/Form/attachmentjs.tpl', 8, false),array('function', 'crmURL', 'CRM/Form/attachmentjs.tpl', 13, false),)), $this); ?>

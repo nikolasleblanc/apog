@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:25:43
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:27:00
          compiled from CRM/common/status.tpl */ ?>
 
 <?php if ($this->_tpl_vars['session']->getStatus(false)): ?>

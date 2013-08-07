@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:41:18
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:39:58
          compiled from CRM/common/showHide.tpl */ ?>
  <script type="text/javascript">
     var showBlocks = new Array(<?php echo $this->_tpl_vars['showBlocks']; ?>

@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:41:01
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:29:43
          compiled from CRM/Contribute/Page/UserDashboard.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('block', 'ts', 'CRM/Contribute/Page/UserDashboard.tpl', 32, false),array('function', 'cycle', 'CRM/Contribute/Page/UserDashboard.tpl', 40, false),array('function', 'crmURL', 'CRM/Contribute/Page/UserDashboard.tpl', 82, false),array('modifier', 'crmMoney', 'CRM/Contribute/Page/UserDashboard.tpl', 41, false),array('modifier', 'truncate', 'CRM/Contribute/Page/UserDashboard.tpl', 47, false),array('modifier', 'crmDate', 'CRM/Contribute/Page/UserDashboard.tpl', 47, false),array('modifier', 'replace', 'CRM/Contribute/Page/UserDashboard.tpl', 114, false),)), $this); ?>

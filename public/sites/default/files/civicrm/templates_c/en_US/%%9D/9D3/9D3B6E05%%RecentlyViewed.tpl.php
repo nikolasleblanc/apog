@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.27, created on 2013-08-06 21:25:44
+<?php /* Smarty version 2.6.27, created on 2013-08-07 13:27:01
          compiled from CRM/Block/RecentlyViewed.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'mb_truncate', 'CRM/Block/RecentlyViewed.tpl', 36, false),array('block', 'ts', 'CRM/Block/RecentlyViewed.tpl', 38, false),)), $this); ?>
