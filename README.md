@@ -1,0 +1,3 @@
+# Vagrant Box for Drupal 7 and PHP 5
+## Seems to be working, at least so far...
+
