@@ -1,0 +1,38 @@
+name = WYSIWYG configuration with TinyMCE and shortcodes
+description = WYSIWYG Configuration with support for shortcodes
+core = 7.x
+package = User interface
+php = 5.2.4
+version = 7.x-1.0-beta
+project = stf_wysiwyg
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = file_entity
+dependencies[] = footnotes
+dependencies[] = footnotes_wysiwyg
+dependencies[] = media
+dependencies[] = media_flickr
+dependencies[] = media_internet
+dependencies[] = media_vimeo
+dependencies[] = media_youtube
+dependencies[] = sc_basic
+dependencies[] = shortcode
+dependencies[] = shortcode_wysiwyg
+dependencies[] = strongarm
+dependencies[] = syntaxhighlighter
+dependencies[] = views
+dependencies[] = wysiwyg
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:1
+features[filter][] = full_html_with_shortcodes
+features[variable][] = filter_fallback_format
+features[variable][] = media_flickr__api_key
+features[variable][] = media_flickr__api_secret
+features[wysiwyg][] = full_html_with_shortcodes
+
+; Information added by drupal.org packaging script on 2012-10-07
+version = "7.x-1.0-beta1"
+core = "7.x"
+project = "stf_wysiwyg"
+datestamp = "1349641015"
+

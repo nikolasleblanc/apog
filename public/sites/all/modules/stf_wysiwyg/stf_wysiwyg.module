@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sooperthemes WYSIWYG configuration with shortcodes feature.
+ */
+
+include_once 'stf_wysiwyg.features.inc';
